@@ -86,8 +86,8 @@ The filename needs to be a character string (or [string]({{ page.root }}/referen
 > ## Other Options for Reading CSV Files
 >
 > `read.csv` actually has many more arguments that you may find useful when
-> importing your own data in the future. You can learn more about these
-> options in this supplementary [lesson]({{ page.root }}/11-supp-read-write-csv/).
+> importing your own data in the future. [You can learn more about these
+> options in this supplementary lesson]({{ page.root }}/11-supp-read-write-csv/).
 {: .callout}
 
 > ## Loading Data with Headers
@@ -600,7 +600,7 @@ If you leave both index values empty (i.e., `dat[,]`), you get the entire data f
 > ## Addressing Columns by Name
 >
 > Columns can also be addressed by name, with either the `$` operator (ie. `dat$V16`) or square brackets (ie. `dat[, 'V16']`).
-> You can learn more about subsetting by column name in this supplementary [lesson]({{ page.root }}/10-supp-addressing-data/).
+> [You can learn more about subsetting by column name in this supplementary lesson]({{ page.root }}/10-supp-addressing-data/).
 {: .callout}
 
 Now let's perform some common mathematical operations to learn more about our inflammation data.
