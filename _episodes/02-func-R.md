@@ -506,16 +506,16 @@ center <- function(data, desired) {
 > ## Writing Documentation
 >
 > Formal documentation for R functions is written in separate `.Rd` using a
-> markup language similar to [LaTeX][]. You see the result of this documentation
+> markup language similar to the [LaTeX document preparation system][]. You see the result of this documentation
 > when you look at the help file for a given function, e.g. `?read.csv`.
-> The [roxygen2][] package allows R coders to write documentation alongside
+> The [roxygen2 package][] allows R coders to write documentation alongside
 > the function code and then process it into the appropriate `.Rd` files.
 > You will want to switch to this more formal method of writing documentation
 > when you start writing more complicated R projects.
 {: .callout}
 
-[LaTeX]: https://www.latex-project.org/
-[roxygen2]: https://cran.r-project.org/package=roxygen2/vignettes/rd.html
+[LaTeX document preparation system]: https://www.latex-project.org/
+[roxygen2 package]: https://cran.r-project.org/package=roxygen2/vignettes/rd.html
 
 
 
@@ -523,8 +523,8 @@ center <- function(data, desired) {
 
 > ## Functions to Create Graphs
 >
-> Write a function called `analyze` that takes a filename as an argument
-> and displays the three graphs produced in the [previous lesson][01] (average, min and max inflammation over time).
+> [Write a function called `analyze` that takes a filename as an argument
+> and displays the three graphs produced in the previous lesson][01] (average, min and max inflammation over time).
 > `analyze("data/inflammation-01.csv")` should produce the graphs already shown,
 > while `analyze("data/inflammation-02.csv")` should produce corresponding graphs for the second data set.
 > Be sure to document your function with comments.
