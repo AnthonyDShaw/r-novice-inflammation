@@ -579,8 +579,8 @@ Sure enough, the maxima of these data sets show exactly the same ramp as the fir
 > As you progress with R, you will learn that there are multiple ways to
 > accomplish this. Sometimes the choice of one method over another is more a
 > matter of personal style, but other times it can have consequences for the
-> speed of your code. [For instruction on best practices, see this supplementary
-> lesson]({{ page.root }}/15-supp-loops-in-depth/) that demonstrates how to properly repeat
+> speed of your code.
+> [For instruction on best practices, see this supplementary lesson]({{ page.root }}/15-supp-loops-in-depth/) that demonstrates how to properly repeat
 > operations in R.
 {: .callout}
 
