@@ -133,8 +133,8 @@ print_words(best_practice[-6])
 
 > ## Not Available
 >
-> R has has a special variable, `NA`, for designating missing values that are
-> **N**ot **A**vailable in a data set. See `?NA` and [An Introduction to R][na]
+> [R has has a special variable, `NA`, for designating missing values that are
+> **N**ot **A**vailable in a data set. See `?NA` and An Introduction to R][na]
 > for more details.
 {: .callout}
 
@@ -196,7 +196,7 @@ for (variable in collection) {
 ~~~
 {: .language-r}
 
-We can name the [loop variable]({{ page.root }}/reference/#loop-variable) anything we like (with a few [restrictions][], e.g. the name of the variable cannot start with a digit).
+[We can name the loop variable, e.g. the name of the variable cannot start with a digit]({{ page.root }}/reference/#loop-variable) anything we like (with a few [restrictions][]).
 `in` is part of the `for` syntax.
 Note that the condition (`variable in collection`) is enclosed in parentheses,
 and the body of the loop is enclosed in curly braces `{ }`.
@@ -579,8 +579,8 @@ Sure enough, the maxima of these data sets show exactly the same ramp as the fir
 > As you progress with R, you will learn that there are multiple ways to
 > accomplish this. Sometimes the choice of one method over another is more a
 > matter of personal style, but other times it can have consequences for the
-> speed of your code. For instruction on best practices, see this supplementary
-> [lesson]({{ page.root }}/15-supp-loops-in-depth/) that demonstrates how to properly repeat
+> speed of your code. [For instruction on best practices, see this supplementary
+> lesson]({{ page.root }}/15-supp-loops-in-depth/) that demonstrates how to properly repeat
 > operations in R.
 {: .callout}
 
