@@ -493,7 +493,7 @@ analyze("data/inflammation-01.csv", output = "inflammation-01.pdf")
 {: .language-r}
 
 Before going further, we will create a directory `results` for saving our plots.
-It is [good practice](http://swcarpentry.github.io/good-enough-practices-in-scientific-computing/) in data analysis projects to save all output to a directory separate from the data and analysis code.
+It is [good practice in data analysis projects](http://swcarpentry.github.io/good-enough-practices-in-scientific-computing/) to save all output to a directory separate from the data and analysis code.
 You can create this directory using the shell command [mkdir]({{ site.swc_pages }}/shell-novice/02-create/), or the R function `dir.create()`
 
 ~~~
