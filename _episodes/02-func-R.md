@@ -524,7 +524,7 @@ center <- function(data, desired) {
 > ## Functions to Create Graphs
 >
 > [Write a function called `analyze` that takes a filename as an argument
-> and displays the three graphs produced in the previous lesson][01] (average, min and max inflammation over time).
+> and displays the three graphs produced in the previous lesson (average, min and max inflammation over time)][01].
 > `analyze("data/inflammation-01.csv")` should produce the graphs already shown,
 > while `analyze("data/inflammation-02.csv")` should produce corresponding graphs for the second data set.
 > Be sure to document your function with comments.
