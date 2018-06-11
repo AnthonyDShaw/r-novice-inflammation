@@ -580,8 +580,8 @@ Sure enough, the maxima of these data sets show exactly the same ramp as the fir
 > accomplish this. Sometimes the choice of one method over another is more a
 > matter of personal style, but other times it can have consequences for the
 > speed of your code.
-> [For instruction on best practices, see this supplementary lesson]({{ page.root }}/15-supp-loops-in-depth/) that demonstrates how to properly repeat
-> operations in R.
+> [For instruction on best practices, see this supplementary lesson that demonstrates
+> operations in R.]({{ page.root }}/15-supp-loops-in-depth/) 
 {: .callout}
 
 > ## Using Loops to Analyze Multiple Files
