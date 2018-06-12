@@ -91,15 +91,12 @@ Error in eval(expr, envir, enclos): object 'temp' not found
 > However, R has some unique aspects that can be exploited when performing
 > more complicated operations. We will not be writing anything that requires
 > knowledge of these more advanced concepts. In the future when you are
-> comfortable writing functions in R, you can learn more by reading the
-> [R Language Manual][man] or this [chapter][] from
-> [Advanced R Programming][adv-r] by Hadley Wickham. For context, R uses the
+> comfortable writing functions in R, [you can learn more about R's unique aspects that can be exploited when performing more complicated operationsby reading this chapter from Advanced R Programming by Hadley Wickham][chapter], or [the R Language Manual for more information on environment objects][man]. For context, R uses the
 > terminology "environments" instead of frames.
 {: .callout}
 
 [man]: https://cran.r-project.org/doc/manuals/r-release/R-lang.html#Environment-objects
 [chapter]: http://adv-r.had.co.nz/Environments.html
-[adv-r]: http://adv-r.had.co.nz/
 
 Why go to all this trouble? Well, here's a function called `span` that calculates the difference between the minimum and maximum values in an array:
 
