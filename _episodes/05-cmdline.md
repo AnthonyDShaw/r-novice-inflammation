@@ -715,8 +715,8 @@ This is four lines longer than its predecessor, but broken into more digestible 
 
 > ## Parsing Command-Line Flags
 >
-> R has a package named [argparse][argparse-r] that helps handle complex command-line flags (it utilizes a [Python module][argparse-py] of the same name).
-> We will not cover this package in this lesson but when you start writing programs with multiple parameters you'll want to read through the package's [vignette][].
+> [R has a package named argparse that helps handle complex command-line flags][argparse-r] ([argparse utilizes a Python module of the same name][argparse-py]).
+> We will not cover this package in this lesson but [when you start writing programs with multiple parameters you'll want to read through the argparse vignette][vignette].
 {: .callout}
 
 [argparse-r]: https://cran.r-project.org/package=argparse
@@ -826,7 +826,7 @@ Rscript count-stdin.R data/small-01.csv
 i.e., to forget the `<` character that redirect the file to standard input.
 In this case, there's nothing in standard input, so the program waits at the start of the loop for someone to type something on the keyboard.
 We can type some input, but R keeps running because it doesn't know when the standard input has ended.
-If you ran this, you can pause R by typing `ctrl`+`z` (technically it is still paused in the background; if you want to fully kill the process type `kill %`; see [bash manual][bash-jobs] for more information).
+If you ran this, you can pause R by typing `ctrl`+`z` (technically it is still paused in the background; if you want to fully kill the process type `kill %`; [see the bash manual for more information on job control][bash-jobs] for more information).
 
 [bash-jobs]: https://www.gnu.org/software/bash/manual/bash.html#Job-Control-Basics
 
