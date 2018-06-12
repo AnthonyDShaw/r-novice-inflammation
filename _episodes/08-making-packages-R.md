@@ -35,7 +35,7 @@ An R package requires four components:
 *   a man directory with documentation (we will create this automatically)
 *   a NAMESPACE file listing user-level functions in the package (we will also create this automatically)
 
-*There are other optional components. [Read the "R packages" book][r-pkgs-desc] for much more information.*
+*[R packages have other optional components. Read the "R packages" book for much more information.][r-pkgs-desc]*
 
 [r-pkgs-desc]: http://r-pkgs.had.co.nz/description.html
 
@@ -95,7 +95,7 @@ fahrenheit_to_celsius <- function(temp_F) {
 ~~~
 {: .language-r}
 
-We will use the [`devtools`][devtools] and [`roxygen2`][roxygen2] packages, which make creating packages in R relatively simple. Both can be installed from CRAN like this:
+We will use the [`devtools` package][devtools] and [`roxygen2` package], which make creating packages in R relatively simple. Both can be installed from CRAN like this:
 
 
 ~~~
